@@ -36,9 +36,17 @@ span:hover {
   background-size: 0% 100%;
 }
 
+.left:hover {
+  filter: drop-shadow(0 0 5px #ff0000);
+}
+
 .right {
   background-position: 100% 0%;
   background-size: 0% 100%;
+}
+
+.right:hover {
+  filter: drop-shadow(0 0 5px #bb00ff);
 }
 
 .top {
@@ -46,12 +54,24 @@ span:hover {
   background-size: 100% 0%;
 }
 
+.top:hover {
+  filter: drop-shadow(0 0 5px #ffd500);
+}
+
 .bottom {
   background-position: 0% 100%;
   background-size: 100% 0%;
 }
 
+.bottom:hover {
+  filter: drop-shadow(0 0 5px #000dff);
+}
+
 .center {
   background-position: 50% 50%;
   background-size: 0% 0%;
+}
+
+.center:hover {
+  filter: drop-shadow(0 0 5px #00e917);
 }
