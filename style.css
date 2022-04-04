@@ -45,3 +45,13 @@ span:hover {
   background-position: 0% 0%;
   background-size: 100% 0%;
 }
+
+.bottom {
+  background-position: 0% 100%;
+  background-size: 100% 0%;
+}
+
+.center {
+  background-position: 50% 50%;
+  background-size: 0% 0%;
+}
