@@ -23,12 +23,20 @@ span {
   color: transparent;
 
   background-repeat: no-repeat;
-  background-position: 0% 0%;
-  background-size: 0% 100%;
 
   transition: background-size 0.3s ease-in;
 }
 
 span:hover {
   background-size: 100% 100%;
+}
+
+.left {
+  background-position: 0% 0%;
+  background-size: 0% 100%;
+}
+
+.right {
+  background-position: 100% 0%;
+  background-size: 0% 100%;
 }
