@@ -40,3 +40,8 @@ span:hover {
   background-position: 100% 0%;
   background-size: 0% 100%;
 }
+
+.top {
+  background-position: 0% 0%;
+  background-size: 100% 0%;
+}
